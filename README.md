@@ -1,6 +1,7 @@
 # 🏭 Dashboard de Acompanhamento de Produção vs. Metas (Power BI)
 
-![Visão Anual](assets/visao_anual.png)
+![Visão Anual](<img width="1421" height="798" alt="image" src="https://github.com/user-attachments/assets/c7f4f182-3cdd-4519-9028-eea704822fb8" />
+)
 
 ## 📌 Visão Geral do Projeto
 Painel executivo e operacional desenvolvido no **Microsoft Power BI** para monitorar o desempenho de uma linha de produção frente às metas estabelecidas (mensais e anuais)[cite: 16]. A solução permite à gestão de operações identificar rapidamente desvios de performance por período, produto, maquinário e turno de trabalho.
@@ -18,7 +19,8 @@ A área de Operações precisava consolidar os apontamentos diários de produç�
 ## 🏗️ Arquitetura e Modelagem de Dados
 O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, garantindo integridade referencial e evitando ambiguidades entre diferentes granularidades de dados:
 
-![Modelo de Dados](assets/modelo_dados.png)
+![Modelo de Dados](<img width="1554" height="742" alt="image" src="https://github.com/user-attachments/assets/5d36e1f2-d260-40c5-85a6-8ebdc2028b53" />
+)
 
 - **Tabelas Fato:**
   - `f_Producao`: Registros de volume produzido por data, máquina, produto e turno.
@@ -39,7 +41,8 @@ O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, 
 - **Performance Mensal:** Gráfico de colunas com **formatação condicional dinâmica**, destacando em vermelho os meses que ficaram abaixo da meta mensal (como Janeiro, Abril, Julho, Agosto e o parcial de Outubro) e em verde/azul os meses que superaram o planejado (Fevereiro e Março).
 
 ### 2. Visão Mensal de Metas
-![Visão Mensal](assets/visao_mensal.png)
+![Visão Mensal](<img width="1418" height="796" alt="image" src="https://github.com/user-attachments/assets/dffd95a6-8d76-4639-b7a8-a44cdc08ca95" />
+)
 - **Detalhamento Diário:** Ao selecionar um mês específico (ex.: Julho, com **73,34%** de atingimento e **879 Mil** unidades produzidas), o painel exibe a curva acumulada diária (desvio de **-27%**, com `0,88 Mi` realizados frente a `1,20 Mi` previstos) e o comportamento dia a dia da operação frente à meta[cite: 18].
 - **Navegação & UX:** Botões interativos no cabeçalho permitem alternar fluidamente entre as visões Anual e Mensal, acompanhados de segmentadores dinâmicos por **Máquina**, **Produto** e **Turno**.
 
@@ -54,6 +57,3 @@ O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, 
 ## 📁 Estrutura do Repositório
 - `Projeto 2 - Acompanhamento de Produção vs Metas.pbix`: Arquivo principal do Power BI.
 - `/assets`: Capturas de tela das páginas do dashboard e do modelo de dados.
-<img width="1554" height="742" alt="image" src="https://github.com/user-attachments/assets/ed35d2b9-a575-40e9-93a8-de2900ff2639" />
-<img width="1418" height="796" alt="image" src="https://github.com/user-attachments/assets/6565cd9e-ba9d-494d-b909-f49713bd2ba1" />
-<img width="1421" height="798" alt="image" src="https://github.com/user-attachments/assets/b2fa8b95-78ec-45df-8d97-bb384212478d" />
