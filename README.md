@@ -1,6 +1,5 @@
 # 🏭 Dashboard de Acompanhamento de Produção vs. Metas (Power BI)
 
-<img width="1421" height="798" alt="image" src="https://github.com/user-attachments/assets/c7f4f182-3cdd-4519-9028-eea704822fb8" />
 
 
 ## 📌 Visão Geral do Projeto
@@ -35,6 +34,8 @@ O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, 
 ## 📊 Estrutura do Painel e Insights Obtidos
 
 ### 1. Visão Anual de Metas
+<img width="1421" height="798" alt="image" src="https://github.com/user-attachments/assets/c7f4f182-3cdd-4519-9028-eea704822fb8" />
+
 - **Recorte Temporal:** Os registros de apontamento produtivo compreendem o período de **01/01 a 05/10**, enquanto o planejamento de metas contempla todo o exercício anual (Jan a Dez).
 - **KPI Principal:** Medidor de atingimento global (**72,19%**, representando **8 Mi** produzidos frente à meta anual total de **11 Mi**).
 - **Evolução Acumulada:** Comparativo progressivo mostrando que a produção acompanhou o ritmo da meta nos primeiros meses, apresentando leve descolamento a partir de agosto e encerrando a janela de dados em 05/10 com **7,9 Mi** acumulados (considerando que outubro possui apenas 5 dias apurados).
