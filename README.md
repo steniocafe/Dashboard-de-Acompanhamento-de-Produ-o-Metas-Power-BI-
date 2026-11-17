@@ -42,7 +42,8 @@ O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, 
 - **Performance Mensal:** Gráfico de colunas com **formatação condicional dinâmica**, destacando em vermelho os meses que ficaram abaixo da meta mensal (como Janeiro, Abril, Julho, Agosto e o parcial de Outubro) e em verde/azul os meses que superaram o planejado (Fevereiro e Março).
 
 ### 2. Visão Mensal de Metas
-<img width="1418" height="796" alt="image" src="https://github.com/user-attachments/assets/dffd95a6-8d76-4639-b7a8-a44cdc08ca95" />
+<img width="1421" height="790" alt="image" src="https://github.com/user-attachments/assets/e967a70f-9f19-4a7d-a474-aff452ad3c6c" />
+
 
 - **Detalhamento Diário:** Ao selecionar um mês específico (ex.: Julho, com **73,34%** de atingimento e **879 Mil** unidades produzidas), o painel exibe a curva acumulada diária (desvio de **-27%**, com `0,88 Mi` realizados frente a `1,20 Mi` previstos) e o comportamento dia a dia da operação frente à meta.
 - **Navegação & UX:** Botões interativos no cabeçalho permitem alternar fluidamente entre as visões Anual e Mensal, acompanhados de segmentadores dinâmicos por **Máquina**, **Produto** e **Turno**.
