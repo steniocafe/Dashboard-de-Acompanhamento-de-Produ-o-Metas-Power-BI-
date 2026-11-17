@@ -1,6 +1,5 @@
 # 🏭 Dashboard de Acompanhamento de Produção vs. Metas (Power BI)
 
-![Visão Anual]
 <img width="1421" height="798" alt="image" src="https://github.com/user-attachments/assets/c7f4f182-3cdd-4519-9028-eea704822fb8" />
 
 
@@ -20,7 +19,6 @@ A área de Operações precisava consolidar os apontamentos diários de produç�
 ## 🏗️ Arquitetura e Modelagem de Dados
 O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, garantindo integridade referencial e evitando ambiguidades entre diferentes granularidades de dados:
 
-![Modelo de Dados]
 <img width="1554" height="742" alt="image" src="https://github.com/user-attachments/assets/5d36e1f2-d260-40c5-85a6-8ebdc2028b53" />
 
 
@@ -43,7 +41,6 @@ O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, 
 - **Performance Mensal:** Gráfico de colunas com **formatação condicional dinâmica**, destacando em vermelho os meses que ficaram abaixo da meta mensal (como Janeiro, Abril, Julho, Agosto e o parcial de Outubro) e em verde/azul os meses que superaram o planejado (Fevereiro e Março).
 
 ### 2. Visão Mensal de Metas
-![Visão Mensal]
 <img width="1418" height="796" alt="image" src="https://github.com/user-attachments/assets/dffd95a6-8d76-4639-b7a8-a44cdc08ca95" />
 
 - **Detalhamento Diário:** Ao selecionar um mês específico (ex.: Julho, com **73,34%** de atingimento e **879 Mil** unidades produzidas), o painel exibe a curva acumulada diária (desvio de **-27%**, com `0,88 Mi` realizados frente a `1,20 Mi` previstos) e o comportamento dia a dia da operação frente à meta[cite: 18].
