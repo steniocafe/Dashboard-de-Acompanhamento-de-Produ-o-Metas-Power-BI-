@@ -55,4 +55,4 @@ O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, 
 ---
 
 ## 📁 Estrutura do Repositório
-- `Projeto 2 - Acompanhamento de Produção vs Metas.pbix`: Arquivo principal do Power BI.
+- `Acompanhamento de Produção vs Metas.pbix`: Arquivo principal do Power BI.
