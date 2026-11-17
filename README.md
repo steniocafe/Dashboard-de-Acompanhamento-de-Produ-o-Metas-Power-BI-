@@ -4,7 +4,7 @@
 
 
 ## 📌 Visão Geral do Projeto
-Painel executivo e operacional desenvolvido no **Microsoft Power BI** para monitorar o desempenho de uma linha de produção frente às metas estabelecidas (mensais e anuais)[cite: 16]. A solução permite à gestão de operações identificar rapidamente desvios de performance por período, produto, maquinário e turno de trabalho.
+Painel executivo e operacional desenvolvido no **Microsoft Power BI** para monitorar o desempenho de uma linha de produção frente às metas estabelecidas (mensais e anuais). A solução permite à gestão de operações identificar rapidamente desvios de performance por período, produto, maquinário e turno de trabalho.
 
 ---
 
@@ -43,7 +43,7 @@ O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, 
 ### 2. Visão Mensal de Metas
 <img width="1418" height="796" alt="image" src="https://github.com/user-attachments/assets/dffd95a6-8d76-4639-b7a8-a44cdc08ca95" />
 
-- **Detalhamento Diário:** Ao selecionar um mês específico (ex.: Julho, com **73,34%** de atingimento e **879 Mil** unidades produzidas), o painel exibe a curva acumulada diária (desvio de **-27%**, com `0,88 Mi` realizados frente a `1,20 Mi` previstos) e o comportamento dia a dia da operação frente à meta[cite: 18].
+- **Detalhamento Diário:** Ao selecionar um mês específico (ex.: Julho, com **73,34%** de atingimento e **879 Mil** unidades produzidas), o painel exibe a curva acumulada diária (desvio de **-27%**, com `0,88 Mi` realizados frente a `1,20 Mi` previstos) e o comportamento dia a dia da operação frente à meta.
 - **Navegação & UX:** Botões interativos no cabeçalho permitem alternar fluidamente entre as visões Anual e Mensal, acompanhados de segmentadores dinâmicos por **Máquina**, **Produto** e **Turno**.
 
 ---
@@ -56,4 +56,3 @@ O modelo foi estruturado no formato **Constelação de Fatos (Galaxy Schema)**, 
 
 ## 📁 Estrutura do Repositório
 - `Projeto 2 - Acompanhamento de Produção vs Metas.pbix`: Arquivo principal do Power BI.
-- `/assets`: Capturas de tela das páginas do dashboard e do modelo de dados.
